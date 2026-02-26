@@ -1,0 +1,44 @@
+
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  background-color: #333;
+  border: 1px solid #555;
+  border-radius: 1rem;
+  width: 500px;
+  overflow: hidden;
+  color: #fff;
+}
+
+
+.card img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem 1.5rem;
+  flex: 1;
+}
+
+.info h3 {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+.info p {
+  margin: 0.3rem 0 0;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+
+.alive { color: #4caf50; }
+.dead  { color: #f44336; }
+.unknown { color: #aaa; }
